@@ -221,7 +221,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     <script type="text/javascript">
     $(document).ready({
       $.ajax({
-        type: post,
+        type: 'post',
         url: './addInDB.php',
         success: function(result){
           console.log(result);
