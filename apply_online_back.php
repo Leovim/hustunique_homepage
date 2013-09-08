@@ -73,8 +73,8 @@
               <span  class="item">性别：</span>
             </div>
             <div class="right_input">
-              <input name="sex" checked="true" type="radio" value="男"><span>男</span>
-              <input type="radio" value="女" name="sex"><span>女</span>
+              <input name="sex" checked="true" type="radio" value="F"><span>男</span>
+              <input type="radio" value="M" name="sex"><span>女</span>
             </div>
           </div>
           <div class="inputs">
@@ -216,42 +216,10 @@
     
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/apply_online.js"></script>
-<<<<<<< HEAD
-  <!-- hustunique.com Baidu tongji analytics -->
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F96d46b39837766727c025083f81edc8f' type='text/javascript'%3E%3C/script%3E"));
-</script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $.ajax({
-        type: 'post',
-        url: './addInDB.php',
-        success: function(result){
-          console.log(result);
-        },
-        data: {
-          u_name: 'chuangwang',
-          u_sex: 'F',
-          u_campus: '1',
-          u_major: '物流',
-          u_main_phone: '13006352013',
-          u_standby_phone: '13006352013',
-          u_group: '4',
-          u_intro: '我们都是好孩子',
-          u_advantage: '我们都是好孩子',
-          u_know: '1.2.3.',
-        },
-      });
-    });
-    </script>
-</body>
-=======
     <!-- hustunique.com Baidu tongji analytics -->
     <script type="text/javascript">
       var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
       document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F96d46b39837766727c025083f81edc8f' type='text/javascript'%3E%3C/script%3E"));
     </script>
   </body>
->>>>>>> fc1f9579895af84207e949b046487080b3287af8
 </html>
