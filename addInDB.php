@@ -1,5 +1,4 @@
 <?php
-  require_once("linkDataBase.php");
 
   function _inte_info($flag, $info){
     return json_encode(array('status' => $flag, 'info' => $info));
@@ -7,6 +6,10 @@
 
   function inte_err_info($info){
     return _inte_info(false, $info);
+  }
+
+  function inte_succ_info($info){
+    return _inte_info(true, $info);
   }
 
   function inte_bigerr_info(){
@@ -81,6 +84,8 @@
       $know = mysql_escape_string(implode('.', $know_final));
 
       $sql = "INSERT INTO `ash_member_applicants`(`name`, `sex`, `campus`, `major`, `main_phone`, `standby_phone`, `group_name`, `intro`, `advantage`, `know`) VALUES ('$name', '$sex', '$campus', '$major', '$main_phone', '$standby_phone', '$group', '$intro', '$advantage', '$know')";
+
+      require_once("linkDataBase.php");
 
       if(mysql_query($sql, $con)) return inte_succ_info("你已参加本次联创团队招新，请等候面试通知");
       return inte_err_info("Unable Error");
