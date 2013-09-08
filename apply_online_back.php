@@ -235,7 +235,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
           u_standby_phone: '13006352013',
           u_group: '4',
           u_intro: '我们都是好孩子',
-          u_advantage: '',
+          u_advantage: '我们都是好孩子',
           u_know: '1.2.3',
         },
       });
