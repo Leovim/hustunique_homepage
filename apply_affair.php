@@ -227,20 +227,20 @@
 	    <img class="left_bg" src="./image/apply/affair/left_bg.png" alt="left-bg">
 	    <img class="point" src="./image/apply/affair/point.png" alt="point">
 	    <span class="top_title">现场招新</span>
-	    <span class="detail">9月12号 紫菘路口</span>
+	    <span class="detail">9月12号 沁苑路口</span>
 	  </div>
 	  <div id="subnext_flow">
-	    <span class="detail">9月14号 沁苑路口</span>
+	    <span class="detail">9月13号 韵苑路口</span>
 	  </div>
 	  <div id="subnext_flow">
-	      <span class="detail">9月16号 韵苑路口</span>
+	      <span class="detail">9月14号 紫菘路口</span>
 	    </div>
 	    
 	    <div class="next_flow">
 	      <img class="left_bg" src="./image/apply/affair/left_bg.png" alt="left-bg">
 	      <img class="point" src="./image/apply/affair/point.png" alt="point">
 	      <span class="top_title">招新宣讲会</span>
-	      <span class="detail">9月20号 大学生活动中心B305 19：00</span>
+	      <span class="detail">9月16号 大学生活动中心B305 19：00</span>
               <p class="detail">了解联创团队的发展历程和现状。了解各个组的情况</p>
 
 
@@ -250,7 +250,7 @@
 	      <img class="left_bg" src="./image/apply/affair/left_bg.png" alt="left-bg">
 	      <img class="point" src="./image/apply/affair/point.png" alt="point">
 	      <span class="top_title">笔试</span>
-	      <span class="detail">时间待定 东九教学楼 </span>
+	      <span class="detail">9月18号 东九教学楼 </span>
 	    </div>
 	     
 	    <div class="next_flow">
