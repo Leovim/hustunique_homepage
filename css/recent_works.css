@@ -1,0 +1,227 @@
+span,p,h{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+section{
+   
+}
+
+section #content{
+    padding-top:20px;
+    height:1270px;
+    width:1000px;
+    margin:0 auto;
+    position:relative;
+}
+
+section .work{
+    height:261px;
+    width:800px;
+    cursor:pointer;
+    margin-top:40px;
+    margin-left:100px;
+}
+
+section #game{
+    background:url(../image/product/recent/game/game-small.jpg) no-repeat;
+}
+
+section #euuro{
+    background:url(../image/product/recent/euuro/euuro-small.jpg) no-repeat;
+}
+
+section #tuudo{
+    background:url(../image/product/recent/tuudo/tuudo-small.jpg) no-repeat;
+}
+
+section #tuzi{
+    background:url(../image/product/recent/tuzi/tuzi-small.jpg) no-repeat;
+}
+
+section #clock{
+    background:url(../image/product/recent/tuzi/tuzi-small.jpg) no-repeat;
+}
+
+section .animate_div{
+    display:none;
+    position:fixed;
+    width:1000px;
+    height:500px;
+    top:100px;
+    z-index:3;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+section #animate1{
+    background-color:#3E5EA2;
+}
+
+section #animate2{
+    background:url(../image/product/recent/tuudo/bg.jpg) repeat;
+}
+
+
+.container .element{
+    position:absolute;
+    display:none;
+
+}
+
+.container span{
+    font-size:80px;
+    color:#FFFFFF;
+    weight:10px;
+    width:600px;	
+}
+
+#rool1{
+    left:417px;
+}
+
+#rool4{
+    left:491px;
+}
+
+#rool6{
+    top:0px;	
+}
+
+#word6{
+    position:absolute;
+    top:200px;
+    left:500px;
+}
+#rool7{
+    left:500px;
+    top:220px;
+}
+
+#word7{
+    top:90px;
+    left:100px;
+}
+
+#word1,#word4{
+    left:50px;
+    top:100px;
+}
+
+#word2{
+    left:450px;
+    top:200px;
+}
+
+#word3{
+    left:450px;
+    top:280px;
+}
+
+#rool5{
+    left:200px;
+    z-index:10;
+}
+
+#word8{
+    top:400px;
+    left:200px;	
+    z-index:15	;
+}
+
+#rolling{
+	left:-100px;
+	top:-100px;
+}
+
+#tuu{
+    left:495px;
+    top:163px;
+}
+
+#do{
+    left:728px;
+    top:163px;
+}
+
+#mobile{
+    left:40px;
+    top:50px;
+}
+
+section #animate3{
+    background:url(../image/product/recent/tuzi/bg1.jpg) repeat;
+}
+
+#animate3 #buttom_bg{
+    position:absolute;
+    height:270px;
+    width:100%;
+    top:239px;
+    background:url(../image/product/recent/tuzi/bg.jpg) repeat-x;
+    z-index:1;
+}
+
+#animate3 .element{
+    z-index:3;
+}
+
+#men{
+    top:421px;
+    left:1000px;
+    z-index:3;
+}
+
+#animate3 #naughty-logo{
+    top:70px;
+    left:140px;
+}
+
+#animate3 #gui1{
+    top:300px;
+    left:30px;
+}
+
+#animate3 #gui2{
+    top:224px;
+    left:487px;
+}
+
+#animate3 #gui3{
+    top:220px;
+    left:278px;
+}
+
+#animate3 #cloud{
+    top:30px;
+    left:0px;
+}
+
+#animate3 #fire{
+    top:130px;
+    left:640px;
+}
+
+#animate3 #tuzi_logo{
+    top:100px;
+    left:580px;
+}
+
+#animate3 #big1,#big2,#big3,#big4,#big5{
+    left:100px;
+    top:10px;
+}
+
+.close{
+     position:absolute;
+     left:962px;
+     top:-10px;
+     z-index:10;
+     cursor:pointer;
+}
+
+#animate4{
+    //background-color:#66CD00;
+}
+
+

@@ -1,0 +1,216 @@
+a{
+    text-decoration:none;
+    outline:none;
+    hide-focus:expression(this.hideFocus=true);
+}
+a img{
+    border:none;
+}
+#myCanvas,#backgroundCanvas,#controlCanvas{
+    position:absolute;
+    top:2px;
+    left:84px;
+    border:none;
+}
+#noCanvas{
+    position:absolute;
+    display:inline-block;
+    width:500px;
+    font-size:25px;
+    color:#888888;
+    left:300px;
+    top:100px;
+    font-family:"微软雅黑";
+}
+#chrome img{
+    display:inline-block;
+    width:50px;
+}
+#firefox img{
+    display:inline-block;
+    width:50px;
+}
+#center{
+    display:block;
+    position:absolute;
+    top:120px;
+    left:245px;
+    height:329px;
+    width:600px;
+    /*
+    border-radius:300px / 164.5px;
+    -webkit-border-radius:300px 164.5px;
+    -moz-border-radius:300px / 164.5px;
+    background-image:url(../img/inside.png);
+    background-size:600px 329px;
+    */
+    overflow:hidden; 
+    color:white;
+    font-family:微软雅黑;
+    font:bold;
+    text-align:center;
+}
+#notice{
+    width:200px;
+    top:15px;
+    position:relative;
+    display:none;
+}
+.rec{
+    /*background:-moz-linear-gradient(left,rgba(231,229,225,0.3),rgba(26,26,26,0.3) 50%,rgba(231,229,225,0.3) 100%);
+      background:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(231,229,225,0.68)),color-stop(0.5,rgba(26,26,26,0.68)),color-stop(1,rgba(231,229,225,0.3)));*/
+    background-image:url(../img/background.png);
+    background-size:509px 35px;
+    position:absolute;
+    width:509px;
+    height:35px;
+    left:56px;
+    display:none;
+}
+#f1{
+    top:35px;
+}
+#f2{
+    top:85px;
+}
+#f3{
+    top:135px;
+}
+#f4{
+    top:185px;
+}
+#f5{
+    top:235px;
+}
+#f6{
+    top:285px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.left_img{
+    margin-top:11px;
+    margin-left:58px;
+}
+.left_team{
+    display:inline-block;
+    font-size:16px;
+    margin-top:13px;
+    margin-left:7px;
+}
+.right_team{
+    display:inline-block;
+    float:right;
+    margin-top:13px;
+    margin-right:7px;
+}
+.right_img{
+    margin-top:11px;
+    margin-right:76px;
+}
+
+#animate4 span{
+    font-size:11px;
+    position:absolute;
+}
+
+.date{
+    top:-1px;
+    left:175px;
+    color:white;
+}
+.time{
+    top:-1px;
+    left:229px;
+    color:white;
+}
+.team1{
+    top:25px;
+    left:86px;
+    width:14px;
+    height:14px;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    background:#444444;
+    text-align:center;
+}
+.team2{
+    top:25px;
+    left:391px;
+    width:14px;
+    height:14px;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    background:#444444;
+    text-align:center;
+}
+.score{
+    clear:both;
+    position:absolute;
+    top:14px;
+    left:228px;
+    font-size:18px;
+    font-family:Arial;
+    color:white;
+}
+.tv{
+    position:absolute;
+    top:8px;
+    left:272px;
+    cursor:pointer;
+    width:25px;
+    z-index:1;
+}
+#showHref{
+    display:none;
+    z-index:2;
+    position:absolute;
+    top:66px;
+    left:101px;
+    background-image:url(../img/link.png);
+    width:400px;
+    height:200px;
+    background-size: 400px 200px;
+    text-align:center;
+}
+#teams{
+    text-align:center;
+    font-size:17px;
+    top:22px;
+    position:relative;
+}
+#close{
+    position:absolute;
+    top:17px;
+    left:366px;
+    cursor:pointer;
+}
+.url{
+    display:none;
+    position:absolute;
+    color:white;
+    left:20px;
+}
+#url_1{
+    top:63px;
+}
+#url_2{
+    top:100px;
+}
+#url_3{
+    top:137px;
+}
+#teams span{
+    top:10px;
+}
+#team_1{
+    
+}
+#team_2{
+    
+}

@@ -1,0 +1,154 @@
+
+img{
+/*ie图片有链接 带框*/
+     border:none;
+
+}
+
+
+body{
+    margin:0;
+}
+
+header a,footer a{
+    text-decoration:none;
+    color:#000000;
+}
+
+header{
+    background:url(../image/home/bg.png) repeat;
+    height:150px;
+}
+
+header #logo_nav{
+    height:100%;
+    width:880px;
+    margin:0 auto;
+}
+
+header #left_logo{
+    height:100%;
+    float:left;
+}
+
+header #left_logo img{
+    margin-top:30px;
+    cursor:pointer;
+}
+
+
+header nav{
+    height:100%;
+    width:660px;
+    float:left;
+}
+
+header nav ul{
+    list-style:none;
+    margin-top:30px;
+}
+
+header nav ul li{
+    float:left;
+    display:block;  
+}
+
+header nav ul li .fir_nav span{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    display:block;
+    cursor:pointer;
+    font-size:18px;
+    color:white;
+    width:100px;
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    border-right:solid 1px #000000;
+    border-left:solid 1px #333333;
+}
+
+header nav ul li:hover ul{
+    display:block;
+}
+
+header nav ul li .fir_nav #no_left{
+    border-left:none;
+}
+
+header nav ul li .fir_nav #no_right{
+    border-right:none;
+}
+
+header nav #bottom_line{
+    height:20px;
+    padding-left:29px;
+}
+
+header nav li ul{
+    display:none;   /*二级菜单隐藏*/
+    margin-top:30px;
+    position:absolute;
+    top:40px;
+    width:400px;
+    margin-left:-90px;
+    background:url(../image/home/together.png) no-repeat;
+    background-position:-30px 20px; 
+}
+
+header nav li ul:hover{
+    display:block;
+}
+
+header nav li ul span{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    display:block;
+    cursor:pointer;
+    font-size:16px;
+    color:white;
+    width:100px;
+    height:60px;
+    line-height:70px;
+    text-align:center;
+}
+
+
+section{
+    background:url(../image/home/bg_white.png) repeat;
+}
+
+
+
+footer{
+    height:100px;
+    background:url(../image/home/bg.png) repeat;
+}
+
+footer #copyright_link{
+    width:1100px;
+    height:100%;
+    margin:0 auto;
+}
+
+footer #copyright_link #copyright{
+    float:left;
+    height:100%;
+    width:85%;
+}
+
+footer #copyright_link #copyright p{
+    margin-top:60px;
+    color:#FFFFFF;
+   text-align:center;
+}
+
+footer #copyright_link #link_logo{
+    float:left;
+    height:100%;
+    width:15%;
+}
+
+footer #copyright_link #link_logo img{
+    margin-top:50px;
+    margin-left:10px;
+    cursor:pointer;
+}

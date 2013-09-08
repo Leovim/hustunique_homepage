@@ -1,0 +1,117 @@
+
+span,p,h{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+section #main{
+    width:1050px;
+    margin:0px auto;
+    height:1213px;
+    padding-top:80px;
+}
+
+
+.frame{
+    position:relative;
+    margin:5px;
+    height:165px;
+    width:138px;
+    float:left;
+    cursor:pointer;
+}
+
+
+.frame img{
+    position:absolute;
+}
+
+.llayer,.rlayer{
+    position:absolute;
+     display:none;
+    height:165px;
+    width:296px;
+    background-color:rgba(0, 0, 0, 0.898438);
+}
+
+.llayer{
+    left:138px;
+}
+
+.rlayer{
+    left:-296px;
+}
+
+#family_tree{
+    background:url(../image/about/member/familytree.png) no-repeat;
+}
+
+#you{
+    background-color:#F4B53D;
+}
+
+#you span{
+    display:block;
+    color:#FFFFFF;
+    font-size:60px;
+    text-align:center;
+    width:138px;
+    margin-top:40px;
+}
+
+.frame .line_div{
+    width:260px;
+    margin:10px 15px 5px 15px;*/
+   
+}
+
+.frame .member_name,.member_job{
+    font-size:18px;
+}
+
+.frame .member_job{
+    display:block;
+    width:296px;
+    text-align:center;
+    height:25px;
+}
+
+.frame .member_name{
+    width:150px;
+    margin:0px;
+    padding-left:122px;
+}
+
+.frame .member_school{
+    color:#FFFFFF;
+    font-size:10px;
+    margin-left:10px;
+}
+
+.frame .member_name{
+    color:#FFFFFF;
+}
+
+
+.frame .member_job{
+    color:#FFFFFF;
+}
+
+.frame .own_word{
+    width:250px;
+    display:block;
+    margin:0 auto;
+    font-size:15px;
+    color:#FFFFFF;
+}
+
+.frame .renren_img{
+    left:30px;
+    top:135px;
+    
+}
+
+.frame .weibo_img{
+    left:80px;
+    top:130px;
+}

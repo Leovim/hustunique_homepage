@@ -1,0 +1,52 @@
+section #intro_middle{
+    width:900px;
+    margin:0 auto;
+}
+
+section #intro_main #title {
+    font-size:38px;
+    color:#5188CC;
+    margin-left:120px;
+    padding-top:50px;
+}
+
+section #intro_main #main_text{
+    width:800px;
+    height:330px;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+section #intro_middle #left_line #sec_meau{
+    margin-top:250px;
+}
+
+section #intro_main #main_text p{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    text-indent:2em;
+    font-size:18px;
+    color:#383838;
+}
+
+section #intro_main #s_line{
+    margin-left:120px;
+}
+
+section #intro_main .sub_main{
+    padding-bottom:30px;
+    margin-left:-50px;
+}
+
+section #intro_main #canvas_div{
+    height:600px;
+    width:800px;
+    margin-left:50px;
+    margin-bottom:10px;
+    text-align:center;
+    font-size:30px;
+}
+
+#canvas_div #myCanvas{
+    position:relative;
+    z-index:3;
+}

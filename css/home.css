@@ -1,0 +1,189 @@
+
+section #gallery{
+    width:880px;
+    margin:0 auto;
+    height:460px;
+    position:relative;
+}
+
+section #gallery_left,#gallery_right{
+    float:left;
+    z-index:2;
+    position:absolute;
+}
+
+#gallery_left{
+    left:33px;
+}
+
+#gallery_right{
+    left:775px;
+}
+
+section #gallery_middle{
+    z-index:2;
+    float:left;
+    left:59px;
+    height:443px;
+    width:718px;
+    position:absolute;
+    background:url(../image/home/gallery_middle.png) repeat
+}
+
+section #gallery_shadow{
+    position:absolute;
+    left:23px;
+    top:429px;
+}
+
+section #hang_left{
+    position:absolute;
+    left:93px;
+    top:0;
+}
+
+section #hang_right{
+    position:absolute;
+    left:708px;
+    top:0;
+}
+
+section #turn_left{
+    position:absolute;
+    left:9px;
+    top:187px;
+    cursor:pointer;
+}
+
+section #turn_right{
+    position:absolute;
+    left:787px;
+    top:187px;
+    cursor:pointer;
+}
+
+section #change_buttons{
+    position:absolute;
+    left:380px;
+    top:390px;
+    cursor:pointer;
+    z-index:2;
+}
+
+#change_buttons .buttons{
+    width:12px;
+    height:12px;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    background-color:#6F6E6E;
+    float:left;
+    margin-left:8px;
+    -webkit-box-shadow:inset 0px 1px 2px #000000;
+    box-shadow:inset 0px 1px 2px #000000;   
+}
+
+
+#unique_intro{
+    width:800px;
+    height:130px;
+    margin:0 auto;
+}
+
+#unique_intro p{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size:22px;
+    color:#6F6E6E;
+    text-indent:2em;
+    /*p段落开头空个位，1em相对一字体的大小*/
+}
+
+#unique_intro #separation_line{
+    margin-left:20px;
+}
+
+#unique_project{
+    width:970px;
+    margin:0px auto;
+    height:480px;
+}
+
+#unique_project .sub_project{
+    float:left;
+    width:260px;
+    height:450px;
+    margin-left:50px;
+    text-align:center;
+}
+
+#unique_project .sub_project #matchDiv,#productDiv{
+    text-align:left;
+    padding-top:60px;
+}
+
+#outsourcingDiv{
+    padding-top:48px;
+    float:left;
+}
+
+
+#unique_project .sub_project .des_div p{
+    text-indent:2em;
+    font-size:16px;
+    color:#6F6E6E;
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+#unique_project #match{
+    height:134px;
+}
+
+#unique_project #product{
+    height:134px;
+}
+
+#unique_project #outsourcing{
+    height:145px;
+}
+
+#unique_project .sub_project .pro_logo{
+    cursor:pointer;
+    overflow:hidden;
+    width:200px;
+    margin-left:30px;
+    position:relative;
+}
+
+#gallery_back{
+    width:725px;
+    height:354px;
+    position:absolute;
+    top:24px;
+    left:57px;
+    z-index:3;
+    overflow:hidden;
+}
+
+#holder{
+    width:3000px;
+    height:354px;
+    position:absolute;
+    z-index:3px;
+}
+
+#holder img{
+    margin:0px;
+    float:left;
+}
+
+.logo_contain{
+    width:200px;
+    position:absolute;
+}
+
+#logo_match,#logo_product{
+    top:-186px;
+}
+
+#logo_outsourcing{
+    top:-194px;
+}

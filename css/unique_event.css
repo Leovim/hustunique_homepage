@@ -1,0 +1,90 @@
+span,p,h{
+    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+.year_logo,.mainImg{
+    /*for ie */
+    filter:gray;
+}
+
+section #main{
+    padding-top:50px;
+    width:700px;
+    margin:0 auto;
+    height:4500px;
+}
+
+section #left_bar{
+    width:64px;
+    float:left;
+    height:4500px;
+    background:url(../image/about/event/line.png) repeat-y;
+    background-position:center;
+    text-align:center;
+}
+
+section .sub_bar{
+    height:250px;
+    position:relative;
+}
+
+section #left_bar .year_logo{
+}
+
+section #left_bar .year_span{
+    display:block;
+    position:absolute;
+    top:22px;
+    left:13px;
+    color:#6A7090;
+    font-size:17px;
+}
+
+section #right_pic{
+    width:636px;
+    float:left;
+    height:2500px;
+}
+
+section .sub_event{
+    width:100%;
+    height:250px;
+    position:relative;
+}
+
+.line{
+    margin-top:0px;
+    color:#D8D8D8;
+}
+
+section .sub_event .event_title{
+    color:#5F5F5F;
+    font-size:20px;
+    padding-left:25px;
+    padding-top:8px;
+}
+
+section .image_frame,.image_frame2{
+    float:left;
+    position:absolute;
+    top:70px;
+    height:157px;
+    width:220px;
+    background:url(../image/about/event/picture_bg.png) no-repeat;
+}
+
+.image_frame{
+    left:70px;
+}
+
+.image_frame2{
+    left:350px;
+}
+
+section .image_frame img,.image_frame2 img{
+    padding-top:5px;
+    padding-left:7px;
+    width:206px;
+    height:143px;
+}
