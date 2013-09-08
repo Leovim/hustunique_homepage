@@ -11,7 +11,7 @@
   </head>
 
   <body>
-		<?php require "header.php" ?>
+    <?php require "header.php" ?>
     <section>
     <div id="gallery">
       <img src="./image/home/hang.png" id="hang_left">
