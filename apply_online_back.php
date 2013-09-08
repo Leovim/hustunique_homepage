@@ -218,5 +218,28 @@
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F96d46b39837766727c025083f81edc8f' type='text/javascript'%3E%3C/script%3E"));
 </script>
+    <script type="text/javascript">
+    $(document).ready({
+      $.ajax({
+        type: post,
+        url: './addInDB.php',
+        success: function(result){
+          console.log(result);
+        },
+        data: {
+          u_name: 'chuangwang',
+          u_sex: 'F',
+          u_campus: '1',
+          u_major: '物流',
+          u_main_phone: '13006352013',
+          u_standby_phone: '13006352013',
+          u_group: '4',
+          u_intro: '我们都是好孩子',
+          u_advantage: '',
+          u_know: '1.2.3',
+        },
+      });
+    });
+    </script>
 </body>
 </html>

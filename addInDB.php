@@ -1,5 +1,5 @@
 <?php
-  //require_once("linkDataBase.php");
+  require_once("linkDataBase.php");
 
   function _inte_info($flag, $info){
     return json_encode(array('status' => $flag, 'info' => $info));
