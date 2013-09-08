@@ -11,47 +11,7 @@
   </head>
 
   <body>
-    <header>
-      <div id="logo_nav">
-	<div id="left_logo">
-	  <a href="home.html">
-	    <img src="image/home/logo.png">
-	  </a>
-	</div>
-	<nav id="right_nav">
-	  <ul>
-	    <li><a href="home.html" class="fir_nav"><span id="no_left">首页</span></a></li>
-	    <li><a href="#" class="fir_nav"><span>关于联创</span></a>
-	      <ul>
-		 <li><a href="unique_intro.html"><span>团队介绍</span></a></li>
-		 <li><a href="unique_group.html"><span>各组介绍</span></a></li>
-		 <li><a href="unique_member.php"><span>团队成员</span></a></li>
-		 <li><a href="unique_event.html"><span>大事记</span></a></li>
-	      </ul>
-	    </li>
-	    <li><a href="#" class="fir_nav"><span>招新</span></a>
-	      <ul>
-		 <li><a href="apply_affair.php"><span>招新事宜</span></a></li>
-		 <li><a href="apply_online.php"><span>在线报名</span></a></li>
-	      </ul>
-	    </li>
-	    <li><a href="#"class="fir_nav"><span>成果</span></a>
-	      <ul>
-		  <li><a href="recent_works.html"><span>近期作品</span></a></li>
-		  <li><a href="history_works.php"><span>历史作品</span></a></li>
-	      </ul>
-	    </li>
-	    <li><a href="contact.php" class="fir_nav"><span>联系我们</span></a></li>
-	    <li><a href="http://blog.hustunique.com" target="_blank"  class="fir_nav"><span>博客</span></a></li>
-	  </ul>
-
-	  <div id="bottom_line">
-	    <img src="image/home/nav_footer.png">
-	  </div>
-	</nav>
-      </div>
-    </header>
-
+		<?php require "header.php" ?>
     <section>
       <div id="main_part">
 	<div id="group_shop">
@@ -227,20 +187,20 @@
 	    <img class="left_bg" src="./image/apply/affair/left_bg.png" alt="left-bg">
 	    <img class="point" src="./image/apply/affair/point.png" alt="point">
 	    <span class="top_title">现场招新</span>
-	    <span class="detail">9月12号 紫菘路口</span>
+	    <span class="detail">9月12号 沁苑路口</span>
 	  </div>
 	  <div id="subnext_flow">
-	    <span class="detail">9月14号 沁苑路口</span>
+	    <span class="detail">9月13号 韵苑路口</span>
 	  </div>
 	  <div id="subnext_flow">
-	      <span class="detail">9月16号 韵苑路口</span>
+	      <span class="detail">9月14号 紫菘路口</span>
 	    </div>
 	    
 	    <div class="next_flow">
 	      <img class="left_bg" src="./image/apply/affair/left_bg.png" alt="left-bg">
 	      <img class="point" src="./image/apply/affair/point.png" alt="point">
 	      <span class="top_title">招新宣讲会</span>
-	      <span class="detail">9月20号 大学生活动中心B305 19：00</span>
+	      <span class="detail">9月16号 大学生活动中心B305 19：00</span>
               <p class="detail">了解联创团队的发展历程和现状。了解各个组的情况</p>
 
 
@@ -250,7 +210,7 @@
 	      <img class="left_bg" src="./image/apply/affair/left_bg.png" alt="left-bg">
 	      <img class="point" src="./image/apply/affair/point.png" alt="point">
 	      <span class="top_title">笔试</span>
-	      <span class="detail">时间待定 东九教学楼 </span>
+	      <span class="detail">9月18号 东九教学楼 </span>
 	    </div>
 	     
 	    <div class="next_flow">
