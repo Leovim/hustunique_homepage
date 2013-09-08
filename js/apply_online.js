@@ -84,7 +84,7 @@ function submit(){
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
           alert(xmlhttp.responseText);
-          window.location.href = "home.html";
+          window.location.href = "home.php";
         }
       }
 
