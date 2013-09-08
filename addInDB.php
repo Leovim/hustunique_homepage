@@ -71,7 +71,6 @@
           else array_push($know_final, $know_other);
         }elseif(in_array($v, $_know_arr_keys)) array_push($know_final, $know_arr[$v]);
       }
-      var_dump($know_final);
       if(empty($know_final)) return inte_err_info("了解团队的方式填写错误");
 
       $name = mysql_escape_string($name);
