@@ -184,7 +184,7 @@
                 <li class="ways"><input type="checkbox" id="other5" name="way" value="5" /> 路演、宣讲会</li>
                 <li class="ways"><input type="checkbox" id="other6" name="way" value="6" /> 海报、宣传单</li>
                 <li class="ways"><input type="checkbox" id="other7" name="way" value="7" /> 同学介绍</li>
-                <li id="other-select" class="ways"><input id="other" type="checkbox" id="check" value="8" /> 其他 
+                <li id="other-select" class="ways"><input id="other8" type="checkbox" id="check" value="8" /> 其他 
                 <input type="text" class="long" id="other-text" value="" />
                 </li>
               </ul>

@@ -143,7 +143,7 @@ function GetRadioValue(RadioName) {
 
 function otherCheck(){
   var other_text = "";
-  for (var i = 1; i < 8; i++) {
+  for (var i = 1; i < 9; i++) {
     if (document.getElementById("other" + i).checked) {
       other_text += i + ".";
     };
@@ -165,7 +165,7 @@ $("#standby_phone").click(function(){
   $("#wrong_standby_phone").css("display","none");
 });
 
-$("#other").click(function() {
+$("#other8").click(function() {
   if (!document.getElementById("other-text").disabled) {
     document.getElementById("other-text").value = "";
     document.getElementById("other-text").disabled = true;
@@ -176,7 +176,7 @@ $("#other").click(function() {
 });
 
 $(document).ready(function (e) {
-  if (!document.getElementById("other").checked) {
+  if (!document.getElementById("other8").checked) {
     document.getElementById("other-text").disabled = true;
   };
 });
