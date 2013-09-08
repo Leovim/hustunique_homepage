@@ -10,7 +10,7 @@
     $text2 = $_POST['text2'];
     $text3 = $_POST['text3'];
     $text4 = $_POST['text4'];
-    $create_time = date("Y-m-d",time())
+    $create_time = date("Y-m-d",time());
 
     
     //写入数据库即可
