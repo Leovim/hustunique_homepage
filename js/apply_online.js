@@ -83,8 +83,13 @@ function submit(){
       {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-          alert(xmlhttp.responseText);
-          window.location.href = "home.php";
+          result = eval('(' + xmlhttp.responseText + ')');
+          if(result.status === true){
+            alert(result.info);
+            window.location.href = "home.php";
+          }else{
+              alert(result.info);
+          }
         }
       }
 
