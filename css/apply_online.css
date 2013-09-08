@@ -1,110 +1,141 @@
 span,p,h,input,textarea,option,select{
-    font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family:Microsoft YaHei,"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 
 #online_form{
-    width:900px;
-    height:1100px;
-    margin:0 auto;
-    padding-top:80px;
+  width:900px;
+  height:1100px;
+  margin:0 auto;
+  padding-top:80px;
 }
 
 #top{
-    background:url(../image/apply/online/top.png) no-repeat;
-    height:39px;
+  background:url(../image/apply/online/top.png) no-repeat;
+  height:39px;
 }
 
 #middle{
-    background:url(../image/apply/online/middle.png) repeat-y;
-    height:940px;
+  background:url(../image/apply/online/middle.png) repeat-y;
+  height:940px;
 }
 
 #middle form{
-    height:798px;
-    width:810px;
-    margin-left:20px;
+  width:810px;
+  margin-left:20px;
+  display: table;
 }
 
 #tips p{
-    margin:10px;
-    color:#505050;
-    font-size:22px;
+  margin:10px;
+  color:#505050;
+  font-size:22px;
 }
 
 #bottom{
-    background:url(../image/apply/online/bottom.png) no-repeat;
-    height:40px;
+  background:url(../image/apply/online/bottom.png) no-repeat;
+  height:40px;
 }
 
 #middle .inputs{
-   height:40px;
-   margin-top:12px;
+  height:40px;
+  margin-top:12px;
 }
 
 form{
-    padding:1px;
+  padding:1px;
 }
 
 
 
 #middle .textareas{
-     height:135px;
-     margin-top:20px;
+  height:135px;
+  margin-top:20px;
 }
 
 #middle .left_word{
-    float:left;
-    width:35%;
-    text-align:right;
+  float:left;
+  width:25%;
+  margin-left: 70px;
+  text-align:right;
 }
 
 #middle .right_input{
-    float:left;
-    width:65%;
+  float:left;
+  width:65%;
 }
 
 #middle .item{
-    color:#505050;
-    font-size:20px;
+  color:#505050;
+  font-size:20px;
+}
+
+#middle ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+#middle .group-input {
+  display: table;
+  margin-top: 20px;
+}
+
+#middle .group-select {
+  width: 145px;
+  margin-bottom: 3px;
+  float: left;
+}
+
+#middle .ways-select {
+  display: table;
+}
+
+#middle .ways {
+  width: 200px;
+  float: left;
+}
+
+#middle #other-select {
+  width: 400px;
 }
 
 #middle input,textarea,select{
-    margin-left:40px;
-    resize:none;
-    font-size:15px;
-    border-color:#C3C3C3;
+  margin-left:40px;
+  resize:none;
+  font-size:15px;
+  border-color:#C3C3C3;
 }
 
 
 #middle textarea{
-    height:125px;
-    width:400px;
+  height:125px;
+  width:400px;
 }
 
 #middle .short,.long{
-    border:solid 1px #C3C3C3;
-    height:25px;
+  border:solid 1px #C3C3C3;
+  height:25px;
 }
 
 #middle .short{
-    width:100px;
+  width:100px;
 }
 
 
 .tip{
-    font-size:15px;
-    margin-left:10px;
-    color:red;
-    display:none;
+  font-size:15px;
+  margin-left:40px;
+  color:red;
+  display:none;
 }
 
 em{
-    color:red;
+  color:red;
 }
 
 #submit{
-    margin-top:12px;
-    margin-left:614px;
-    cursor:pointer;
+  margin-top:12px;
+  margin-left:614px;
+  cursor:pointer;
 }
